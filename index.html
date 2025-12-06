@@ -4,15 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Card Slider</title>
-  <!-- Linking SwiperJS CSS -->
+
+  <!-- استایل‌های مربوط به SwiperJS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- فایل استایل اصلی پروژه -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- فونت وزیر -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css">
 </head>
 <body>
+
+  <!-- کانتینر اصلی اسلایدر -->
   <div class="container swiper">
     <div class="slider-wrapper">
+
+      <!-- لیست کارت‌ها؛ هر کارت یک اسلاید است -->
       <div class="card-list swiper-wrapper">
+
+        <!-- کارت اول -->
         <div class="card-item swiper-slide">
           <img src="images/img-1.jpg" alt="User Image" class="user-image">
           <h2 class="user-name">امیر محمدی</h2>
@@ -20,6 +31,7 @@
           <button class="message-button">تماس</button>
         </div>
 
+        <!-- کارت دوم -->
         <div class="card-item swiper-slide">
           <img src="images/img-2.jpg" alt="User Image" class="user-image">
           <h2 class="user-name">سارا رضوی</h2>
@@ -27,6 +39,7 @@
           <button class="message-button">تماس</button>
         </div>
 
+        <!-- کارت سوم -->
         <div class="card-item swiper-slide">
           <img src="images/img-3.jpg" alt="User Image" class="user-image">
           <h2 class="user-name">علی صداقتی </h2>
@@ -34,6 +47,7 @@
           <button class="message-button">تماس</button>
         </div>
 
+        <!-- کارت چهارم -->
         <div class="card-item swiper-slide">
           <img src="images/img-4.jpg" alt="User Image" class="user-image">
           <h2 class="user-name">ملیکا عبدی </h2>
@@ -41,6 +55,7 @@
           <button class="message-button">تماس</button>
         </div>
 
+        <!-- کارت پنجم -->
         <div class="card-item swiper-slide">
           <img src="images/img-5.jpg" alt="User Image" class="user-image">
           <h2 class="user-name">رضا علیپور </h2>
@@ -48,24 +63,28 @@
           <button class="message-button">تماس</button>
         </div>
 
+        <!-- کارت ششم -->
         <div class="card-item swiper-slide">
           <img src="images/img-6.jpg" alt="User Image" class="user-image">
           <h2 class="user-name"> مهدی پورمحمدی</h2>
           <p class="user-profession">Product Designer</p>
           <button class="message-button">تماس</button>
         </div>
+
       </div>
 
+      <!-- دکمه‌ها و صفحه‌بندی اسلایدر -->
       <div class="swiper-pagination"></div>
       <div class="swiper-slide-button swiper-button-prev"></div>
       <div class="swiper-slide-button swiper-button-next"></div>
     </div>
   </div>
 
-  <!-- Linking SwiperJS script -->
+  <!-- اسکریپت SwiperJS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Linking custom script -->
+  <!-- اسکریپت اختصاصی پروژه -->
   <script src="script.js"></script>
+
 </body>
 </html>
